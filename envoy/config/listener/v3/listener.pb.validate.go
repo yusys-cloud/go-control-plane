@@ -429,6 +429,8 @@ func (m *Listener) validate(all bool) error {
 
 	}
 
+	// no validation rules for StreamFilter
+
 	if all {
 		switch v := interface{}(m.GetFilterChainMatcher()).(type) {
 		case interface{ ValidateAll() error }:
