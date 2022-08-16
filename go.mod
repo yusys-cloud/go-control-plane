@@ -1,4 +1,4 @@
-module github.com/envoyproxy/go-control-plane
+module github.com/yusys-cloud/go-control-plane
 
 go 1.16
 
